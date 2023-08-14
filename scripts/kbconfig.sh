@@ -46,8 +46,8 @@ fi
 
 cat << EOF > $WORKDIR/config
 default partial alphanumeric_keys
-xkb_symbols "uc" {
-    name[Group1]="uc";
+xkb_symbols "jptr" {
+    name[Group1]="jptr";
     include "us(basic)"
     key <ESC> { [Caps_Lock] };
     key <CAPS> { [Escape] };
