@@ -2,7 +2,7 @@
 #	Simple script to permaswap CAPS_LOCK and ESC on Linux
 #	written by james
 
-echo -ne "running as $USER\nhome is $HOME\n continue?(y/n) "
+echo -ne "running as $USER\nhome is $HOME\ninstalling to /usr/share/X11/xkb/symbols/jptr\n continue?(y/n) "
 #if read fails it means we arent in bash. oops!
 if ! read -p "" -n 1 -r; then
 	echo "read failed! use bash."
