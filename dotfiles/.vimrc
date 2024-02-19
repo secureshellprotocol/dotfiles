@@ -20,6 +20,8 @@ set incsearch
 set ignorecase
 set smartcase
 
+set colorcolumn=80
+
 autocmd FileType cpp match ErrorMsg '\%>79v.\+'
 
 nnoremap ; :
