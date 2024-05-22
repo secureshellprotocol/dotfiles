@@ -1,2 +1,2 @@
-# stuff
-stuff
+# Stuff
+Various helpers I use
