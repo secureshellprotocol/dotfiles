@@ -1,0 +1,18 @@
+[user]
+	name = JAMES RYAN
+	email = james.paul9889@gmail.com
+	username = secureshellprotocol
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+[web]
+	browser = firefox
+[color]
+	ui=auto
+[merge]
+	conflictstyle = diff3
+[pull]
+	ff=only
+[commit]
+	verbose = true
