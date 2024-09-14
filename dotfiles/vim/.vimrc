@@ -1,6 +1,6 @@
 set tabstop=4
 set shiftwidth=4
-"set expandtab
+set expandtab
 set smartindent
 
 set backspace=indent,eol,start
@@ -27,6 +27,6 @@ autocmd FileType cpp match ErrorMsg '\%>79v.\+'
 nnoremap ; :
 set nu
 
- map <F3> :if exists("syntax_on") <Bar> syntax off <Bar> else <Bar> syntax on <Bar> endif <CR>
- map <F5> :set spell! spell?<CR>
+map <F3> :if exists("syntax_on") <Bar> syntax off <Bar> else <Bar> syntax on <Bar> endif <CR>
+map <F5> :set spell! spell?<CR>
 
