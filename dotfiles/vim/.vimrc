@@ -2,6 +2,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
+set autoindent
+set directory=/tmp
 
 set backspace=indent,eol,start
 set noshowmatch
