@@ -15,6 +15,7 @@ let g:ctrlp_cmd = 'CtrlP'
 colo evening
 set shell=bash\ --norc
 let g:lsp_diagnostics_enabled = 0         " disable diagnostics support"
+set colorcolumn=81
 
 " Configure vim-lsp
 function! s:on_lsp_buffer_enabled() abort
