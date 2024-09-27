@@ -1,2 +1,2 @@
 # Stuff
-Various helpers I use
+my dotfiles and scripts

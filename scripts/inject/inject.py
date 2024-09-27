@@ -1,21 +1,22 @@
 #!/usr/bin/env python3
-import os, subprocess
+import os
 import shutil
+import subprocess
 
 def copy_dir(cwd: str, injectPath: str):
     for f in os.scandir(cwd):
-        if f.name == 'injectpath':
+        if f.name.startswith("inject"):
             continue
         injectPath = os.path.expanduser(injectPath)
         if not os.path.isdir(injectPath):
             os.makedirs(injectPath)
-        if os.path.isdir(f.name):
-            if not os.path.exists(f'{injectPath}/{f.name}'):
-                os.makedirs(f'{injectPath}/{f.name}')    
-            copy_dir(f'{cwd}/{f.name}', f'{injectPath}/{f.name}')
+        
         print(f'discovered {cwd}/{f.name}')
-        shutil.copyfile(f'{cwd}/{f.name}', f'{injectPath}/{f.name}')
-        print(f'copied to {injectPath}/{f.name}')
+        if os.path.isdir(f'{cwd}/{f.name}'):
+            shutil.copytree(f'{cwd}/{f.name}', f'{injectPath}/{f.name}')
+        else: 
+            shutil.copyfile(f'{cwd}/{f.name}', f'{injectPath}/{f.name}')
+        print(f'\tcopied to {injectPath}')
 
 # init
 gitRootFinder: list[str] = ['git', 'rev-parse', '--show-toplevel']
@@ -23,7 +24,7 @@ if subprocess.call(gitRootFinder,
         stdout=subprocess.DEVNULL,
         stderr=subprocess.STDOUT
     ):
-    print("Run this within the 'stuff' git repo!")
+    print("Run this within the 'dotfiles' git repo!")
     exit(-1)
 
 rootpath: str = (
