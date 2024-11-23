@@ -5,7 +5,7 @@
   <property name="command-login-shell" type="bool" value="true"/>
   <property name="custom-command" type="string" value="/usr/bin/tmux"/>
   <property name="font-allow-bold" type="bool" value="false"/>
-  <property name="font-name" type="string" value="Less Perfect DOS VGA 16"/>
+  <property name="font-name" type="string" value="DejaVu Sans Mono Oblique 16"/>
   <property name="misc-always-show-tabs" type="bool" value="false"/>
   <property name="misc-bell" type="bool" value="false"/>
   <property name="misc-bell-urgent" type="bool" value="false"/>
@@ -37,4 +37,5 @@
   <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
   <property name="background-darkness" type="double" value="0.90000000000000002"/>
   <property name="color-background" type="string" value="#24241f1f3131"/>
+  <property name="font-use-system" type="bool" value="true"/>
 </channel>

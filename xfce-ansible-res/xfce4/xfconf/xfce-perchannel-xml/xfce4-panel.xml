@@ -15,7 +15,6 @@
         <value type="int" value="4"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
-        <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
         <value type="int" value="11"/>
@@ -27,6 +26,7 @@
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="40"/>
       <property name="span-monitors" type="bool" value="false"/>
+      <property name="autohide-behavior" type="uint" value="2"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -80,12 +80,6 @@
         <value type="string" value="ethernet network connection “enp4s0f0” active"/>
       </property>
       <property name="square-icons" type="bool" value="true"/>
-    </property>
-    <property name="plugin-8" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="firefox;org.mozilla.firefox;spotify"/>
-      <property name="mpris-players" type="string" value="firefox.instance19096;firefox.instance33413;firefox.instance4362;firefox.instance5496;firefox.instance5720;firefox.instance60561;firefox.instance6443;firefox.instance9054;spotify"/>
-      <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
   </property>
