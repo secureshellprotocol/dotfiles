@@ -4,3 +4,6 @@
 [submodule "xfce-ansible-res/Chicago95"]
 	path = xfce-ansible-res/Chicago95
 	url = https://github.com/grassmunk/Chicago95.git
+[submodule "xfce-ansible-res/tiles-and-such"]
+	path = xfce-ansible-res/tiles-and-such
+	url = https://github.com/wallace-aph/tiles-and-such.git

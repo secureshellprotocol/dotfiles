@@ -109,8 +109,8 @@
       <property name="monitorLVDS1" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="3"/>
-          <property name="last-image" type="string" value="/home/james/Downloads/wmaker/Pixmaps/Sun_background.png"/>
+          <property name="image-style" type="int" value="2"/>
+          <property name="last-image" type="string" value="/home/hotfudge/dotfiles/xfce-ansible-res/tiles-and-such/[J] Retro Patterns/lattice2.png"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
