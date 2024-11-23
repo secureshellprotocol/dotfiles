@@ -1,3 +1,10 @@
+MVP for getting XFCE on any system. Includes the necessities in place.
+Some manual config required:
+    - fonts
+    - wallpapers
+    - perhaps some dpi settings
+YMMV
+
 TODO
 
 Give the 'wallpaper' and 'fonts' some s3 or something on vineyard
