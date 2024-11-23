@@ -1,3 +1,3 @@
 #!/bin/bash
 mkdir ~/.fonts
-cp ./Chicago95/Fonts/* ~/.fonts/
+cp -r ./Chicago95/Fonts/* ~/.fonts/
