@@ -1,3 +1,6 @@
 [submodule "dotfiles/vim/amix_vimrc"]
 	path = dotfiles/vim/amix_vimrc
 	url = https://github.com/amix/vimrc.git
+[submodule "xfce-ansible-res/Chicago95"]
+	path = xfce-ansible-res/Chicago95
+	url = https://github.com/grassmunk/Chicago95.git

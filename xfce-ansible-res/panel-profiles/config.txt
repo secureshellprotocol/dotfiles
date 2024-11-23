@@ -1,0 +1,39 @@
+/configver 2
+/panels [<1>]
+/panels/dark-mode true
+/panels/panel-1/autohide-behavior uint32 2
+/panels/panel-1/icon-size uint32 16
+/panels/panel-1/length uint32 100
+/panels/panel-1/plugin-ids [<1>, <2>, <3>, <4>, <5>, <6>, <9>, <10>, <11>, <12>, <13>, <14>]
+/panels/panel-1/position 'p=6;x=3755;y=666'
+/panels/panel-1/position-locked true
+/panels/panel-1/size uint32 40
+/panels/panel-1/span-monitors false
+/plugins/plugin-1 'applicationsmenu'
+/plugins/plugin-10 'notification-plugin'
+/plugins/plugin-11 'separator'
+/plugins/plugin-11/style uint32 0
+/plugins/plugin-12 'clock'
+/plugins/plugin-12/digital-date-font 'Sans 8'
+/plugins/plugin-12/digital-time-font 'Sans 8'
+/plugins/plugin-12/digital-time-format '%T'
+/plugins/plugin-13 'separator'
+/plugins/plugin-13/style uint32 0
+/plugins/plugin-14 'actions'
+/plugins/plugin-2 'tasklist'
+/plugins/plugin-2/grouping uint32 1
+/plugins/plugin-3 'separator'
+/plugins/plugin-3/expand true
+/plugins/plugin-3/style uint32 0
+/plugins/plugin-4 'pager'
+/plugins/plugin-4/miniature-view true
+/plugins/plugin-4/numbering true
+/plugins/plugin-4/rows uint32 1
+/plugins/plugin-4/workspace-scrolling false
+/plugins/plugin-5 'separator'
+/plugins/plugin-5/style uint32 0
+/plugins/plugin-6 'systray'
+/plugins/plugin-6/known-items [<'chrome_status_icon_1'>, <'obs'>, <'steam'>, <'discord1'>, <'dnfdragora-updater'>, <'blueman'>]
+/plugins/plugin-6/known-legacy-items [<'dnfdragora-updater'>, <'tuxguitar'>, <'seapplet'>, <'networkmanager applet'>, <'thunar'>, <'xfce4-power-manager'>, <'selinux troubleshooter'>, <'ethernet network connection “enp4s0f0” active'>]
+/plugins/plugin-6/square-icons true
+/plugins/plugin-9 'power-manager-plugin'
